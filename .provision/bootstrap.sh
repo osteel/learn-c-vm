@@ -5,6 +5,7 @@ sudo apt-get update
 
 # vim
 sudo apt-get -y install vim
+sudo cp /vagrant/.provision/.vimrc /home/vagrant/.vimrc
 
 # gdb
 sudo apt-get install -y gdb
